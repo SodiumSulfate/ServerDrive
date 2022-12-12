@@ -19,7 +19,7 @@ function init() {
 	var l1 = new THREE.ImageLoader();
 	l1.setCrossOrigin("Anonymous");
 	slide.setImage(
-		l1.load("https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/winter.jpg")
+		l1.load("https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zb2RpdW1zdWxmYXRlLW15LnNoYXJlcG9pbnQuY29tLzppOi9nL3BlcnNvbmFsL3Nkcml2ZV9zb2RpdW1zdWxmYXRlX29ubWljcm9zb2Z0X2NvbS9FVlM2aE9wM1JMdEpnTEdlTHlzaFlkRUI3ODR1NTB3b2NONk9IZUkyWml2Nm1nP2U9U3VtMzVJ.jpg")
 	);
 	root.scene.add(slide);
 
@@ -27,7 +27,7 @@ function init() {
 	var l2 = new THREE.ImageLoader();
 	l2.setCrossOrigin("Anonymous");
 	slide2.setImage(
-		l2.load("https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/spring.jpg")
+		l2.load("https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zb2RpdW1zdWxmYXRlLW15LnNoYXJlcG9pbnQuY29tLzppOi9nL3BlcnNvbmFsL3Nkcml2ZV9zb2RpdW1zdWxmYXRlX29ubWljcm9zb2Z0X2NvbS9FZDFvczVKdXY4aFBwRGQ2dVMtSjFUSUJWQ21POFlIVF9OUHhMSThPU2pGZFF3P2U9Qm9mT2JS.jpg")
 	);
 	root.scene.add(slide2);
 
